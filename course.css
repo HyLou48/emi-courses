@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 14, 39);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+    color: #fff;
+    font-family: Impact;
+    font-size: 30px;
+}
+
+.courses{
+    display: flex;
+    text-align: center;
+}
+
+.courses img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.apply{
+    margin-top: 4%;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.apply:hover{
+    color: white;
+    background-color: rgb(1, 1, 19);
+}
+
+h3{
+    color: #fff;
+}
